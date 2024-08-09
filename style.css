@@ -1,0 +1,58 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, .h1, .h1, .h3{
+    font-family: "Electrolize", sans-serif;
+}
+/* variabili */
+:root{
+    --bl: #0042f9fa;
+    --cl: rgb(217, 249, 255);
+    --w: rgb(247,247,247);
+}
+body{
+    background-color: var(--cl);
+    color: var(w);
+}
+.bg-bl{
+    background-color: var(--bl);
+}
+.bg-cl{
+    background-color: var(--cl);
+}
+.bg-w{
+background-color: var(--w);
+}
+.text-bl{
+    color: var(--bl);
+}
+.text-cl{
+    color: var(--cl);
+}
+.text-w{
+    color: var(--w);
+}
+
+/* header */
+.header-custom{
+    height: 92vh;
+    background-image: linear-gradient(rgba(216, 249, 255, 0.101), rgba(217, 249, 255, 0.14) ) ,url(https://picsum.photos/2000);
+    background-position: center;
+    background-size: cover;
+    align-items: ;
+}
+
+/* nav-bar */
+.navbar{
+    min-height: 8vh;
+}
+.nav-link{
+    color: var(--w);
+    font-weight: bold;
+}
+.nav-link:hover{
+ color: var(--w);
+}
+nav img{
+    width: 50px;
+}
